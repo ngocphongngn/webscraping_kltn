@@ -1,0 +1,12 @@
+E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\bin\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.deps.json
+E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\bin\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.dll
+E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.csprojAssemblyReference.cache
+E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.AssemblyInfoInputs.cache
+E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.AssemblyInfo.cs
+E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\bin\Debug\netcoreapp3.1\JobSeeking.BE.ApplicationCore.dll
+E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\bin\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.pdb
+E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\bin\Debug\netcoreapp3.1\JobSeeking.BE.ApplicationCore.pdb
+E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.csproj.CoreCompileInputs.cache
+E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.csproj.CopyComplete
+E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.dll
+E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.pdb

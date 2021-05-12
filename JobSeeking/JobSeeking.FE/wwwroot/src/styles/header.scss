@@ -1,0 +1,32 @@
+@import "./variables.scss";
+#header{
+    position: absolute;
+    z-index: 100;
+    top: 0px;
+    height: 30px;
+    left: 0px;
+    right: 0;
+    background-color: $white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.16);
+
+    .contain-logo{
+        width: 200px;
+
+        .txt-logo{
+            width: calc(100% - 62px);
+            height: 100%;
+            line-height: 60px;
+        }
+    }
+
+    .contain-user{
+        display: flex;
+        width: auto;
+        align-items: center;
+    }
+    .fix-space{
+        width: 300px;
+    }
+
+}
+

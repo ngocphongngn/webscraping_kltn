@@ -1,0 +1,34 @@
+@import "./variables.scss";
+
+.notification-error{
+    border: 1px solid $warning;
+    background-color: $light-warning;
+    color: $warning !important;
+    .el-notification__title{
+        color: $warning !important;
+    }
+}
+
+.notification-success{
+    border: 1px solid $green;
+    background-color: $hover-green;
+    .el-notification__title{
+        color: $green !important;
+    }
+}
+
+.notification-warning{
+    border: 1px solid $orange;
+    background-color: $hover-orange;
+    .el-notification__title{
+        color: $orange !important;
+    }
+}
+
+.notification-info{
+    border: 1px solid $blue;
+    background-color: $hover-blue;
+    .el-notification__title{
+        color: $blue !important;
+    }
+}

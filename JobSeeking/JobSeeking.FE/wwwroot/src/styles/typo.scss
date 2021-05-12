@@ -1,0 +1,47 @@
+@import "./variables.scss";
+
+//Style cho HEADING
+.heading{
+    font-family: $_fontfamily;
+    font-weight: "bold";
+    font-size: 24px;
+    color: $dark;
+}
+
+//Style cho TITTLE cỡ lớn
+.tittle{
+    font-family: $_fontfamily;
+    font-weight: "bold";
+    font-size: 20px;
+    color: $dark;
+}
+
+//Style cho TITTLE cỡ trung
+.tittle-2{
+    font-family: $_fontfamily;
+    font-weight: "bold";
+    font-size: 15px;
+    color: $dark;
+}
+
+//Style cho TITTLE bé
+.tittle-3{
+    font-family: $_fontfamily;
+    font-weight: "bold";
+    font-size: 13px;
+    color: $dark;
+}
+
+//Style cho BODY CONTENT
+.body-content{
+    font-family: $_fontfamily;
+    font-size: 13px;
+    color: $dark-grey;
+}
+
+//Style cho SUB-TEXT/ HINT-TEXT
+.sub-hint{
+    font-family: $_fontfamily;
+    font-size: 12px;
+    color: $grey;
+}

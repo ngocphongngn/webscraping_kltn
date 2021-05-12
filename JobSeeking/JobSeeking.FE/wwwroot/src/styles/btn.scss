@@ -1,0 +1,1478 @@
+@import "./variables.scss";
+
+@mixin colorBtn($bgColor, $txtColor) {
+  background: $bgColor;
+  color: $txtColor;
+}
+
+.button-container {
+  float: right ;
+}
+.btn-tool{
+  height: 40px;
+}
+
+// CSS cho primary button
+.btn-primary{
+  @include colorBtn($primary, $white);
+  min-width: 100px;
+  padding: 0 24px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    @include colorBtn($light-primary, $white);
+  }
+
+  &:active{
+    @include colorBtn($hover-primary, $white);
+  }
+  &:focus{
+    @include colorBtn($hover-primary, $white);
+  }
+}
+
+// CSS cho primary button element UI
+.btn-primary button{
+  @include colorBtn($primary, $white);
+  min-width: 100px;
+  padding: 0 24px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    @include colorBtn($light-primary, $white);
+  }
+
+  &:active{
+    @include colorBtn($hover-primary, $white);
+  }
+  &:focus{
+    @include colorBtn($hover-primary, $white);
+  }
+}
+
+// CSS cho primary button icon element UI
+.btn-primary-icon{
+  @include colorBtn($primary, $white);
+  min-width: 100px;
+  padding: 0 16px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  line-height: 40px;
+  cursor: pointer;
+  &:hover{
+    @include colorBtn($light-primary, $white);
+  }
+
+  &:active{
+    @include colorBtn($hover-primary, $white);
+  }
+  &:focus{
+    @include colorBtn($hover-primary, $white);
+  }
+  #iconel{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px !important;
+    transform: translateY(3px);
+  }
+}
+
+// CSS cho primary button icon element UI
+.btn-primary-icon button{
+  @include colorBtn($primary, $white);
+  min-width: 100px;
+  padding: 0 16px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+  line-height: 40px;
+  &:hover{
+    @include colorBtn($light-primary, $white);
+  }
+
+  &:active{
+    @include colorBtn($hover-primary, $white);
+  }
+  &:focus{
+    @include colorBtn($hover-primary, $white);
+  }
+  #iconel{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px !important;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    transform: translateY(3px);
+  }
+}
+
+//CSS cho button primary mình icon
+.btn-primary-onlyicon{
+  @include colorBtn($primary, $white);
+  padding: 12px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    @include colorBtn($light-primary, $white);
+  }
+
+  &:active{
+    @include colorBtn($hover-primary, $white);
+  }
+  &:focus{
+    @include colorBtn($hover-primary, $white);
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin: 0px !important;
+  }
+}
+//CSS cho button primary mình icon element UI
+.btn-primary-onlyicon button{
+  @include colorBtn($primary, $white);
+  padding: 12px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    @include colorBtn($light-primary, $white);
+  }
+
+  &:active{
+    @include colorBtn($hover-primary, $white);
+  }
+  &:focus{
+    @include colorBtn($hover-primary, $white);
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin: 0px !important;
+  }
+}
+
+// CSS cho second button
+.btn-seconds{
+  @include colorBtn($bg-grey, $dark);
+  min-width: 100px;
+  padding: 0 24px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: 1px solid $bg-grey;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    @include colorBtn($light-grey, $dark);
+    border: 1px solid $light-grey,;
+  }
+
+  &:active{
+    @include colorBtn($hover-primary, $white);
+    border: 1px solid $hover-primary;
+  }
+  
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-right: 5px;
+  }
+}
+
+// CSS cho second button element UI
+.btn-seconds button{
+  @include colorBtn($bg-grey, $dark);
+  min-width: 100px;
+  padding: 0 24px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: 1px solid $bg-grey;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    @include colorBtn($light-grey, $dark);
+    border: 1px solid $light-grey;
+  }
+
+  &:active{
+    @include colorBtn($hover-primary, $white);
+    border: 1px solid $hover-primary;
+  }
+  
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-right: 5px;
+  }
+}
+// CSS cho second button có mình icon
+.btn-seconds-icon{
+  @include colorBtn($bg-grey, $dark);
+  padding: 12px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  border: 1px solid $bg-grey;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    @include colorBtn($light-grey, $dark);
+    border: 1px solid $light-grey;
+  }
+
+  &:active{
+    @include colorBtn($hover-primary, $white);
+    border: 1px solid $hover-primary;
+  }
+  
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+// CSS cho second button có mình icon elementUI
+.btn-seconds-icon button{
+  @include colorBtn($bg-color-2, $dark);
+  padding: 12px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  border: 1px solid $bg-color-3;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    @include colorBtn($light-grey, $dark);
+    border: 1px solid $light-grey;
+  }
+
+  &:active{
+    @include colorBtn($hover-primary, $white);
+    border: 1px solid $hover-primary;
+  }
+  
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+// CSS cho second button element UI
+.btn-normal button{
+  @include colorBtn($white, $dark-grey);
+  min-width: 100px;
+  padding: 0 24px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: 1px solid $light-grey;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    @include colorBtn($hover-grey, $dark);
+  }
+
+  &:active{
+    @include colorBtn($active-green, $dark-primary);
+    border: none;
+  }
+  &:focus{
+    @include colorBtn($active-green, $dark-primary);
+    border: none;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-right: 5px;
+  }
+}
+
+
+// CSS cho icon button
+.btn-icon{
+  min-width: 100px;
+  @include colorBtn($primary, $white);
+  padding: 0 24px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: flex;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-right: 5px;
+  }
+
+  &:hover{
+    @include colorBtn($dark-primary, $white);
+  }
+  &:active{
+    @include colorBtn($dark-primary, $white);
+  }
+  &:focus{
+    @include colorBtn($dark-primary, $white);
+  }
+}
+
+// CSS cho icon button element UI
+.btn-icon button{
+  min-width: 100px;
+  @include colorBtn($primary, $white);
+  padding: 0 24px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: flex;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+
+  &:hover{
+    @include colorBtn($dark-primary, $white);
+  }
+  &:active{
+    @include colorBtn($dark-primary, $white);
+  }
+  &:focus{
+    @include colorBtn($dark-primary, $white);
+  }
+}
+
+// CSS cho delete button
+.btn-delete{
+  min-width: 100px;
+  padding: 0 24px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: $bg-red;
+  color: $white !important;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    background-color: $seconds;
+    color: $white;
+  }
+  &:active{
+    background-color: $seconds;
+    color: $white;
+  }
+  &:focus{
+    background-color: $seconds;
+    color: $white;
+  }
+}
+
+// CSS cho delete button element UI
+.btn-delete button{
+  background-color: $bg-red;
+  color: $white !important;
+  min-width: 100px;
+  padding: 0 24px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    background-color: $seconds;
+    color: $white;
+  }
+  &:active{
+    background-color: $seconds;
+    color: $white;
+  }
+  &:focus{
+    background-color: $seconds;
+    color: $white;
+  }
+}
+
+// CSS cho delete button icon element UI
+.btn-delete-icon{
+  background-color: $bg-red;
+  color: $white !important;
+  min-width: 100px;
+  padding: 0 16px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  line-height: 40px;
+  cursor: pointer;
+  &:hover{
+    background-color: $seconds;
+    color: $white;
+  }
+  &:active{
+    background-color: $seconds;
+    color: $white;
+  }
+  &:focus{
+    background-color: $seconds;
+    color: $white;
+  }
+  #iconel{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px !important;
+    transform: translateY(3px);
+  }
+}
+
+// CSS cho delete button icon element UI
+.btn-delete-icon button{
+  background-color: $bg-red;
+  color: $white !important;
+  min-width: 100px;
+  padding: 0 16px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+  line-height: 40px;
+  &:hover{
+    background-color: $seconds;
+    color: $white;
+  }
+  &:active{
+    background-color: $seconds;
+    color: $white;
+  }
+  &:focus{
+    background-color: $seconds;
+    color: $white;
+  }
+  #iconel{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px !important;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    transform: translateY(3px);
+  }
+}
+
+//CSS cho button delete mình icon
+.btn-delete-onlyicon{
+  background-color: $bg-red;
+  color: $white !important;
+  padding: 12px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    background-color: $seconds;
+    color: $white;
+  }
+  &:active{
+    background-color: $seconds;
+    color: $white;
+  }
+  &:focus{
+    background-color: $seconds;
+    color: $white;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin: 0px !important;
+  }
+}
+//CSS cho button delete mình icon element UI
+.btn-delete-onlyicon button{
+  background-color: $bg-red;
+  color: $white !important;
+  padding: 12px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    background-color: $seconds;
+    color: $white;
+  }
+  &:active{
+    background-color: $seconds;
+    color: $white;
+  }
+  &:focus{
+    background-color: $seconds;
+    color: $white;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin: 0px !important;
+  }
+}
+
+// Style cho button warn
+.btn-warn{
+  min-width: 100px;
+  height: 40px;
+  padding: 0 24px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  background-color: $yellow;
+  outline: none;
+  color: $white;
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  &:hover{
+    background-color: $yellow;
+    color: $white;
+  }
+  &:active{
+    color: $white;
+    background-color: $yellow;
+  }
+  &:focus{
+    background-color: $yellow;
+    color: $white;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-right: 5px;
+  }
+}
+
+// Style cho button warn element UI
+.btn-warn button{
+  min-width: 100px;
+  height: 40px;
+  padding: 0 24px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  background-color: $yellow;
+  outline: none;
+  color: $white !important;
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  &:hover{
+    background-color: $yellow;
+    color: $white;
+  }
+  &:active{
+    color: $white;
+    background-color: $yellow;
+  }
+  &:focus{
+    background-color: $yellow;
+    color: $white;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-right: 5px;
+  }
+}
+
+// CSS cho grey button
+.btn-grey{
+  min-width: 100px;
+  padding: 0 24px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: $bg-color-1;
+  color: $dark !important;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    background-color: $bg-color-3;
+    color: $dark;
+  }
+  &:active{
+    color: $dark;
+    background-color: $bg-color-3;
+  }
+  &:focus{
+    background-color: $bg-color-3;
+    color: $dark;
+  }
+}
+
+// CSS cho grey button element UI
+.btn-grey button{
+  background-color: $bg-color-1;
+  color: $dark !important;
+  min-width: 100px;
+  padding: 0 24px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    background-color: $bg-color-3;
+    color: $dark;
+  }
+  &:active{
+    color: $dark;
+    background-color: $bg-color-3;
+  }
+  &:focus{
+    background-color: $bg-color-3;
+    color: $dark;
+  }
+}
+
+// CSS cho grey button icon element UI
+.btn-grey-icon{
+  background-color: $bg-color-1;
+  color: $dark !important;
+  min-width: 100px;
+  padding: 0 16px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  line-height: 40px;
+  cursor: pointer;
+  &:hover{
+    background-color: $bg-color-3;
+    color: $dark;
+  }
+  &:active{
+    color: $dark;
+    background-color: $bg-color-3;
+  }
+  &:focus{
+    background-color: $bg-color-3;
+    color: $dark;
+  }
+  #iconel{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px !important;
+    transform: translateY(3px);
+  }
+}
+
+// CSS cho grey button icon element UI
+.btn-grey-icon button{
+  background-color: $bg-color-1;
+  color: $dark !important;
+  min-width: 100px;
+  padding: 0 16px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+  line-height: 40px;
+  &:hover{
+    background-color: $bg-color-3;
+    color: $dark;
+  }
+  &:active{
+    color: $dark;
+    background-color: $bg-color-3;
+  }
+  &:focus{
+    background-color: $bg-color-3;
+    color: $dark;
+  }
+  #iconel{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px !important;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    transform: translateY(3px);
+  }
+}
+
+//CSS cho button grey mình icon
+.btn-grey-onlyicon{
+  background-color: $bg-color-1;
+  color: $dark !important;
+  padding: 12px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    background-color: $bg-color-3;
+    color: $dark;
+  }
+  &:active{
+    color: $dark;
+    background-color: $bg-color-3;
+  }
+  &:focus{
+    background-color: $bg-color-3;
+    color: $dark;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin: 0px !important;
+  }
+}
+//CSS cho button grey mình icon element UI
+.btn-grey-onlyicon button{
+  background-color: $bg-color-1;
+  color: $dark !important;
+  padding: 12px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    background-color: $bg-color-3;
+    color: $dark;
+  }
+  &:active{
+    color: $dark;
+    background-color: $bg-color-3;
+  }
+  &:focus{
+    background-color: $bg-color-3;
+    color: $dark;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin: 0px !important;
+  }
+}
+
+//CSS cho button tab
+#btn-tab{
+  height: 40px;
+  padding: 0 24px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 0px;
+  border: 2px solid $white;
+  background-color: $white;
+  outline: none;
+  color: $dark;
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  &:hover{
+    color: $primary;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-right: 5px;
+  }
+}
+
+//CSS cho button tab element ui
+#btn-tab button{
+  height: 40px;
+  padding: 0 24px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 0;
+  border: 2px solid $white;
+  background-color: $white;
+  outline: none;
+  color: $dark;
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  &:hover{
+    color: $primary;
+    border: 2px solid $white;
+    background-color: $white;
+  }
+  &:active{
+    color: $primary;
+    border: 2px solid $white;
+    background-color: $white;
+  }
+  &:focus{
+    color: $primary !important;
+    border: 2px solid $white;
+    background-color: $white;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-right: 5px;
+  }
+}
+
+//CSS cho button white nền trắng border xám
+.btn-white{
+  min-width: 100px;
+  height: 40px;
+  padding: 0 24px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $bg-color-3;
+  background-color: $white;
+  outline: none;
+  color: $dark !important;
+  &:hover{
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+  }
+  &:active{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  &:focus{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+}
+
+// CSS cho white button element UI
+.btn-white button{
+  min-width: 100px;
+  height: 40px;
+  padding: 0 24px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $bg-color-3;
+  background-color: $white;
+  outline: none;
+  color: $dark !important;
+  &:hover{
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+  }
+  &:active{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  &:focus{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+}
+
+// CSS cho white button icon element UI
+.btn-white-icon{
+  min-width: 100px;
+  height: 40px;
+  padding: 0 16px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $bg-color-3;
+  background-color: $white;
+  outline: none;
+  color: $dark !important;
+  &:hover{
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+  }
+  &:active{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  &:focus{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  #iconel{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px !important;
+    transform: translateY(2px);
+  }
+}
+
+// CSS cho white button icon element UI
+.btn-white-icon button{
+  min-width: 100px;
+  height: 40px;
+  padding: 0 16px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $bg-color-3;
+  background-color: $white;
+  outline: none;
+  color: $dark !important;
+  &:hover{
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+  }
+  &:active{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  &:focus{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  #iconel{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px !important;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    transform: translateY(2px);
+  }
+}
+
+//CSS cho button white mình icon
+.btn-white-onlyicon{
+  height: 40px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $bg-color-3;
+  background-color: $white;
+  outline: none;
+  color: $dark !important;
+  &:hover{
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+  }
+  &:active{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  &:focus{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin: 0px !important;
+  }
+}
+//CSS cho button white mình icon element UI
+.btn-white-onlyicon button{
+  height: 40px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $bg-color-3;
+  background-color: $white;
+  outline: none;
+  color: $dark !important;
+  &:hover{
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+  }
+  &:active{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  &:focus{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin: 0px !important;
+  }
+}
+
+//CSS cho button white2 nền trắng border xám
+.btn-white2{
+  min-width: 100px;
+  height: 40px;
+  padding: 0 24px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $white;
+  background-color: $white;
+  outline: none;
+  color: $dark !important;
+  &:hover{
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+  }
+  &:active{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  &:focus{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+}
+
+// CSS cho white2 button element UI
+.btn-white2 button{
+  min-width: 100px;
+  height: 40px;
+  padding: 0 24px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $white;
+  background-color: $white;
+  outline: none;
+  color: $dark !important;
+  &:hover{
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+  }
+  &:active{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  &:focus{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+}
+
+// CSS cho white2 button icon element UI
+.btn-white2-icon{
+  min-width: 100px;
+  height: 40px;
+  padding: 0 16px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $white;
+  background-color: $white;
+  outline: none;
+  color: $dark !important;
+  &:hover{
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+  }
+  &:active{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  &:focus{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  #iconel{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px !important;
+    transform: translateY(2px);
+  }
+}
+
+// CSS cho white2 button icon element UI
+.btn-white2-icon button{
+  min-width: 100px;
+  height: 40px;
+  padding: 0 16px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $white;
+  background-color: $white;
+  outline: none;
+  color: $dark !important;
+  &:hover{
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+  }
+  &:active{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  &:focus{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  #iconel{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px !important;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    transform: translateY(2px);
+  }
+}
+
+//CSS cho button white2 mình icon
+.btn-white2-onlyicon{
+  width: 40px !important;
+  height: 40px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $white;
+  background-color: $white;
+  outline: none;
+  color: $dark !important;
+  &:hover{
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+  }
+  &:active{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  &:focus{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin: 0px !important;
+  }
+}
+//CSS cho button white2 mình icon element UI
+.btn-white2-onlyicon button{
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $white;
+  background-color: $white;
+  outline: none;
+  color: $dark !important;
+  &:hover{
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+  }
+  &:active{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  &:focus{
+    background-color: $grey;
+    border: 1px solid $grey;
+  }
+  #icon{
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .icon{
+    width: 16px;
+    height: 16px;
+    margin: 0px !important;
+  }
+}
+
+.btn-tab-active{
+  color: $hover-primary !important;
+  border: 2px solid $white;
+  background-color: $white;
+  border-bottom: 2px solid $seconds !important;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  font-weight: bold;;
+  transition: transform .3s cubic-bezier(0.645,0.45, 0.355, 1);
+}
+
+.btn-infor-active {
+  color: $primary !important;
+  border-color: white !important;
+  background-color: $primary !important;
+  border-bottom: 1px solid $red !important;
+  transition: transform .3s cubic-bezier(0.645,0.45, 0.355, 1);
+}
+
+
+
+//Chỉnh sửa cho multi button - icon sổ xuống menu button
+#multi-button .el-dropdown .el-dropdown__caret-button{
+  min-width: 20px !important;
+}
+

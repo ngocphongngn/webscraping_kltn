@@ -1,0 +1,95 @@
+
+@import "./variables.scss";
+
+//Styles chung cho các CHIP 
+.chip{
+    font-size: 11px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+//Styles CHIP nền Xám (chưa nộp) 
+.chip-grey{
+    color: $dark-grey;
+    background-color: $bg-color-2;
+}
+.el-tag.el-tag--info{
+    font-size: 11px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    display: inline-block;
+    color: $dark-grey;
+    background-color: $bg-color-2;
+    border: none !important;
+}
+
+//Styles CHIP nền Tím (thiếu thông tin)
+.chip-purple{
+    color: $purple;
+    background-color: $hover-purple;
+}
+.el-tag.el-tag--warning{
+    font-size: 11px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    display: inline-block;
+    color: $purple;
+    background-color: $hover-purple;
+    border: none !important;
+}
+
+//Styles CHIP nền Xanh (chấp nhận)
+.chip-green{
+    color: $green;
+    background-color: $hover-green;
+}
+
+//Styles CHIP nền Xanh dương (Đã tiếp nhận)
+.chip-blue{
+    color: $blue;
+    background-color: $hover-blue;
+}
+.el-tag{
+    font-size: 11px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    display: inline-block;
+    color: $blue;
+    background-color: $hover-blue;
+    border: none !important;
+}
+//Styles CHIP nền Đỏ (Không chấp nhận)
+.chip-red{
+    color: $red;
+    background-color: $hover-red;
+}
+.el-tag.el-tag--danger{
+    font-size: 11px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    display: inline-block;
+    color: $red;
+    background-color: $hover-red;
+    border: none !important;
+}

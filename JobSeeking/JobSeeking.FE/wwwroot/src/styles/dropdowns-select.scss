@@ -1,0 +1,116 @@
+@import "./variables.scss";
+
+.drop-downs button{
+  display: inline-block;
+  border: 1px solid $light-grey;
+  border-radius: 5px;
+  height: 40px;
+  line-height: 40px;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  color: $dark;
+  font-size: 13px;
+
+  &:hover {
+    border-color: white;
+  }
+  &:active {
+    border-color: white;
+  }
+  .icon {
+    position: absolute;
+    right: 10px;
+  }
+}
+.el-popper {
+  max-width: 640px !important;
+}
+
+.el-dropdown{
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 10px;
+  border: 1px solid $light-grey;
+  border-radius: 5px;
+  color: $primary;
+  line-height: 40px;
+  &:hover{
+    color: $dark;
+    border-color: white;
+  }
+  &:visited{
+    background-color: $hover-blue;
+  }
+}
+
+.el-dropdown-menu--medium .el-dropdown-menu__item{
+  height: 40px;
+  padding: 0px 16px;
+  font-size: 13px;
+}
+
+.el-dropdown-menu--medium{
+  padding: 0px;
+}
+
+.el-popper[x-placement^=top]{
+  margin-bottom: 0px;
+}
+
+.multi-button2{
+  .el-dropdown{
+    padding: 0px !important;
+  }
+}
+
+//Chỉnh sửa Style cho multi button 1
+#multi-button{
+  .el-dropdown{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .el-dropdown .el-dropdown__caret-button{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .el-dropdown-menu--medium .el-dropdown-menu__item{
+    padding: 0px !important;
+  }
+}
+
+//Chỉnh sửa Style cho multi button 2
+#multi-button2{
+  .el-dropdown{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  // .el-dropdown-menu--medium .el-dropdown-menu__item{
+  //   padding: 0px;
+  // }
+  // .el-dropdown .el-dropdown__caret-button{
+  //   padding-left: 10px;
+  //   padding-right: 10px;
+  // }
+}
+
+#drop-downs{
+  #icon{
+    margin-right: 4px;
+  }
+}
+
+//Chỉnh style cho option được chọn trong select (V1.0)
+.el-select-dropdown__item.selected{
+  width: 100%;
+  background-color: $primary;
+  color: $white;
+  font-weight: normal;
+}
+
+//Chỉnh style cho select khi focus vào
+.el-select .el-input.is-focus .el-input__inner{
+  border-color: white;
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QhM8bpbyKXc4wFT4D8R1APXjllA4bK4EMha47gF+1ZuKxHPVvU+rV6MgJ+P95kFR0EJl+X+xdj51h1oIl7ZXGw==",
+  "success": true,
+  "projectFilePath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

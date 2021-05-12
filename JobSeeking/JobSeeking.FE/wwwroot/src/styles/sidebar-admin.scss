@@ -1,0 +1,70 @@
+@import "./variables.scss";
+//cấu hình layout khi ở chế độ onpenSidebar
+#app-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#main {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    bottom: 0;
+    right: 0;
+    padding: 0px 10px 20px 10px;
+    background-color: $white-main;
+}
+
+#app {
+    .main-container {
+        min-height: 100%;
+        margin-left: 200px;
+        position: relative;
+    }
+    .sidebar-container {
+        width: 200px !important;
+        height: 100%;
+        position: fixed;
+        font-size: 0px;
+        top:165px;
+        bottom: 0;
+        left: 30px;
+        z-index: 1001;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        border-radius: 10px 10px 0 0;
+    }
+    //cấu hình layout khi ở chế độ hideSidebar
+    .hideSidebar {
+        #app-content {
+            #main {
+                position: absolute;
+                top: 181px;
+                left: 54px;
+                bottom: 0;
+                right: 0;
+                padding: 0px 16px 0px 16px;
+            }
+        }
+        .sidebar-container {
+            left: 0px;
+            width: 54px !important;
+        }
+        .main-container {
+            margin-left: 54px;
+        }
+        #header {
+            left: 0px;
+        }
+        #menu {
+            .menu-item {
+                .txt-menu {
+                    display: none;
+                }
+            }
+        }
+    }
+}

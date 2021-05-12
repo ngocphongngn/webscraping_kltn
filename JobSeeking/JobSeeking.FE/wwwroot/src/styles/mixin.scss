@@ -1,0 +1,25 @@
+@mixin scrollBar {
+    &::-webkit-scrollbar-track-piece {
+        border-radius: 2px;
+        box-shadow: inset 0 0 6px $dark-grey;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: $white-scrollbar;
+    }
+  
+    &::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+        background-color: $white-scrollbar;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+        box-shadow: inset 0 0 6px $dark-grey;
+        -webkit-box-shadow: inset 0 0 6px $dark-grey;
+        background-color: $light-grey;
+        &:hover{
+            cursor: pointer;
+            background-color: $light-grey;
+        }
+    }
+  }

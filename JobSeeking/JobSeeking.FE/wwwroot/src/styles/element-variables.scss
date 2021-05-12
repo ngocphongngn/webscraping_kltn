@@ -1,0 +1,13 @@
+
+@import "./variables.scss";
+
+$--color-primary: $primary;
+$--color-success: $primary;
+$--color-info: $grey;
+$--color-danger: $warning;
+$--color-warning: $orange;
+
+/* icon font path, required */
+$--font-path: "~element-ui/lib/theme-chalk/fonts";
+
+@import "~element-ui/packages/theme-chalk/src/index";

@@ -188,11 +188,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj",
+      "projectUniqueName": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj",
       "projectName": "JobSeeking.BE.ApplicationCore",
-      "projectPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj",
+      "projectPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\obj\\",
+      "outputPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

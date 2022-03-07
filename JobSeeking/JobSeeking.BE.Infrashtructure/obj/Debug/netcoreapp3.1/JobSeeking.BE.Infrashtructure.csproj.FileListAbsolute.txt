@@ -10,3 +10,15 @@ E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\
 E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.csproj.CopyComplete
 E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.dll
 E:\job-seeking\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.pdb
+E:\kltn\webscraping_kltn\JobSeeking\JobSeeking.BE.Infrashtructure\bin\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.deps.json
+E:\kltn\webscraping_kltn\JobSeeking\JobSeeking.BE.Infrashtructure\bin\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.dll
+E:\kltn\webscraping_kltn\JobSeeking\JobSeeking.BE.Infrashtructure\bin\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.pdb
+E:\kltn\webscraping_kltn\JobSeeking\JobSeeking.BE.Infrashtructure\bin\Debug\netcoreapp3.1\JobSeeking.BE.ApplicationCore.dll
+E:\kltn\webscraping_kltn\JobSeeking\JobSeeking.BE.Infrashtructure\bin\Debug\netcoreapp3.1\JobSeeking.BE.ApplicationCore.pdb
+E:\kltn\webscraping_kltn\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.csprojAssemblyReference.cache
+E:\kltn\webscraping_kltn\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.AssemblyInfoInputs.cache
+E:\kltn\webscraping_kltn\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.AssemblyInfo.cs
+E:\kltn\webscraping_kltn\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.csproj.CoreCompileInputs.cache
+E:\kltn\webscraping_kltn\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.csproj.CopyComplete
+E:\kltn\webscraping_kltn\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.dll
+E:\kltn\webscraping_kltn\JobSeeking\JobSeeking.BE.Infrashtructure\obj\Debug\netcoreapp3.1\JobSeeking.BE.Infrashtructure.pdb

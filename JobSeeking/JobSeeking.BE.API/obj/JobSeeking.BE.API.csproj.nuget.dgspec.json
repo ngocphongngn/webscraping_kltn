@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj": {}
+    "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj": {}
   },
   "projects": {
-    "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj": {
+    "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj",
+        "projectUniqueName": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj",
         "projectName": "JobSeeking.BE.API",
-        "projectPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj",
+        "projectPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.API\\obj\\",
+        "outputPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj": {
-                "projectPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj"
+              "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj": {
+                "projectPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj"
               },
-              "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj": {
-                "projectPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj"
+              "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj": {
+                "projectPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj"
               }
             }
           }
@@ -111,14 +111,14 @@
         }
       }
     },
-    "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj": {
+    "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj",
+        "projectUniqueName": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj",
         "projectName": "JobSeeking.BE.ApplicationCore",
-        "projectPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj",
+        "projectPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\obj\\",
+        "outputPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -172,14 +172,14 @@
         }
       }
     },
-    "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj": {
+    "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj",
+        "projectUniqueName": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj",
         "projectName": "JobSeeking.BE.Infrashtructure",
-        "projectPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj",
+        "projectPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.Infrashtructure\\obj\\",
+        "outputPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.Infrashtructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -198,8 +198,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj": {
-                "projectPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj"
+              "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj": {
+                "projectPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj"
               }
             }
           }

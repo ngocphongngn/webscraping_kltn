@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QhM8bpbyKXc4wFT4D8R1APXjllA4bK4EMha47gF+1ZuKxHPVvU+rV6MgJ+P95kFR0EJl+X+xdj51h1oIl7ZXGw==",
+  "dgSpecHash": "4JLYRvLDFIrNWPZT/gf2sMlDSdU+ForwcF3HJZzKZjeDjncFWfD3ylgmOofI8mI5exnMN2kZuA2/LEyzshCuWg==",
   "success": true,
-  "projectFilePath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj",
+  "projectFilePath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

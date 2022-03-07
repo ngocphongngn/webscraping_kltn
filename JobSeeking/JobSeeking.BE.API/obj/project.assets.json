@@ -7209,11 +7209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj",
+      "projectUniqueName": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj",
       "projectName": "JobSeeking.BE.API",
-      "projectPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj",
+      "projectPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.API\\obj\\",
+      "outputPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7232,11 +7232,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj": {
-              "projectPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj"
+            "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj": {
+              "projectPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.ApplicationCore\\JobSeeking.BE.ApplicationCore.csproj"
             },
-            "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj": {
-              "projectPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj"
+            "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj": {
+              "projectPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.Infrashtructure\\JobSeeking.BE.Infrashtructure.csproj"
             }
           }
         }

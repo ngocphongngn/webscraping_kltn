@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BF9YTk//nLIiZOeS2D4D59jOGG+OUj6eubdim+gN7MxzlbfYoTyt44CNWtKMOJUxJNNicqfjBJbe5609vC8JpA==",
+  "dgSpecHash": "tTDbS4LEl9bCwIANxnGBCbSF94rR2vsGQDKHFG1LLSWzJtxk0VUm/ygajeUaDWVQ4SO8FUQOvKxfPvdZ0sbioQ==",
   "success": true,
-  "projectFilePath": "E:\\job-seeking\\JobSeeking\\JobSeeking.FE\\JobSeeking.FE.csproj",
+  "projectFilePath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.FE\\JobSeeking.FE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

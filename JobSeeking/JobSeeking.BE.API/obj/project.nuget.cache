@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hAIHW9XDA5FVhANfFklstI0e1sX0XpzytxaG3Ugc0wEtZN8aSYHcWG8mO1OceP9KqjdsfB38FyCbbCHXxF2SBw==",
+  "dgSpecHash": "YDFYJarfGoiBbX5s0X7p+o/Q9hWYBG8+SkTDCgr935FjquN20W/JxvEAw10CtcRzae/tKW13W/9GLnTognZ/Ew==",
   "success": true,
-  "projectFilePath": "E:\\job-seeking\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj",
+  "projectFilePath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.BE.API\\JobSeeking.BE.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",

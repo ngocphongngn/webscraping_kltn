@@ -1687,11 +1687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\job-seeking\\JobSeeking\\JobSeeking.FE\\JobSeeking.FE.csproj",
+      "projectUniqueName": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.FE\\JobSeeking.FE.csproj",
       "projectName": "JobSeeking.FE",
-      "projectPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.FE\\JobSeeking.FE.csproj",
+      "projectPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.FE\\JobSeeking.FE.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "E:\\job-seeking\\JobSeeking\\JobSeeking.FE\\obj\\",
+      "outputPath": "E:\\kltn\\webscraping_kltn\\JobSeeking\\JobSeeking.FE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
